@@ -61,6 +61,27 @@ h1 {
   text-align: center;
 }
 
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-bottom: 70px;
+}
+
+.card {
+  width: 12%;
+}
+
+.card-img {
+  max-width: 100%;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+}
+
+.card-text {
+  text-align: center;
+}
+
 .quote {
   background-color: #e5e7eb;
   flex: 2;
