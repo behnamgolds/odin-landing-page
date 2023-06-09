@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0 5px;
 }
 
 h1 {
@@ -106,8 +107,30 @@ cite::before {
 }
 
 .cta-section {
+  color: #e5e7eb;
+  /* padding: 4rem 10rem; */
+  padding: 5rem 7rem;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-around;
   background-color: #3882f6;
-  flex: 1;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.cta-text > h2 {
+  margin-bottom: 0;
+}
+
+.cta-text > p {
+  margin-top: 5px;
+}
+
+.cta-content > .signup-btn {
+  border: 2px solid #e5e7eb;
+  align-self: center;
 }
 
 .header,
@@ -144,7 +167,7 @@ cite::before {
 }
 
 .footer {
-  padding: 1px;
+  padding: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
