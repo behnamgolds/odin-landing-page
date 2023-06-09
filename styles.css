@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@100;400;900&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -51,10 +51,7 @@ h1 {
   border: 1px solid #f9faf8;
 }
 
-.slider {
-}
-
-.slider > h2 {
+.slider-section > h2 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
@@ -82,12 +79,33 @@ h1 {
   text-align: center;
 }
 
-.quote {
+.quote-section {
   background-color: #e5e7eb;
-  flex: 2;
+  padding: 5rem 7rem;
 }
 
-.cta {
+.quote-text {
+  text-align: justify;
+  font-size: 30px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 0;
+}
+
+cite {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: end;
+  margin-top: 0;
+}
+
+cite::before {
+  content: '- ';
+}
+
+.cta-section {
   background-color: #3882f6;
   flex: 1;
 }
